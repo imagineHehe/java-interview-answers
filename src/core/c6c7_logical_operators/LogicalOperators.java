@@ -1,4 +1,4 @@
-package core.c6_logical_operators;
+package core.c6c7_logical_operators;
 
 public class LogicalOperators {
     public void usingOperators(String a){
