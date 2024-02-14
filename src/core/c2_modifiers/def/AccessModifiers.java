@@ -1,4 +1,4 @@
-package core.modifiers.def;
+package core.c2_modifiers.def;
 
 public class AccessModifiers {
 

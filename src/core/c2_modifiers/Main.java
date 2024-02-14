@@ -1,7 +1,7 @@
-package core.modifiers;
+package core.c2_modifiers;
 
-import core.modifiers.def.AccessModifiers;
-import core.modifiers.def.DefaultModifier;
+import core.c2_modifiers.def.AccessModifiers;
+import core.c2_modifiers.def.DefaultModifier;
 
 public class Main{
     public static void main(String[] args) {
