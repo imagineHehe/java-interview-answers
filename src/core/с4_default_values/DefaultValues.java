@@ -1,4 +1,4 @@
-package core.с3_default_values;
+package core.с4_default_values;
 
 public class DefaultValues {
     byte byteField = (byte)0;
