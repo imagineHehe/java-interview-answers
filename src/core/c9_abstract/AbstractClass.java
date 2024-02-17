@@ -1,7 +1,7 @@
 package core.c9_abstract;
 
 //Описывает общее поведение для потомков/шаблон
-public abstract class AbstractClass {
+abstract class AbstractClass {
     //Обычный метод
     public String notAbstractMethod(){
         return "notAbstract";
@@ -10,7 +10,7 @@ public abstract class AbstractClass {
     public abstract void abstractMethod();
 }
 
-class ChildAbstractClass extends AbstractClass {
+class AbstractClassChild extends AbstractClass {
     //Запрещено создавать экземпляры абстрактного класса
     /*AbstractClass abstractClass = new AbstractClass();*/
 

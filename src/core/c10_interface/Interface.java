@@ -2,7 +2,7 @@ package core.c10_interface;
 
 
 //Основное предназначение интерфейса - определять каким образом мы можем использовать класс, который его реализует
-public interface Interface {
+interface Interface {
     //Может содержать инициализированные public static final поля
     public static final String string = "string";
 
