@@ -1,7 +1,7 @@
 package core.c1_c10I.c3_final;
 
 //Не может иметь наследников
-public final class FinalClass extends ClassWithFinalMethod{
+final class FinalClass extends ClassWithFinalMethod{
     //Не может изменить значение после инициализации
     public final String FINAL_STRING = "final string";
     //Требует инициализации в конструкторе класса

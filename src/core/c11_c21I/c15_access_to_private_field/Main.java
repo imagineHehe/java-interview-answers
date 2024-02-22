@@ -2,7 +2,7 @@ package core.c11_c21I.c15_access_to_private_field;
 
 import java.lang.reflect.Field;
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         //Способ 1
         ClassWitchPrivateField classWitchPrivateField = new ClassWitchPrivateField();

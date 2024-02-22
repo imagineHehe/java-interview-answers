@@ -1,6 +1,6 @@
 package core.c11_c21I.c16_order_of_the_call;
 
-public class MainClass {
+class Main{
     public static void main(String[] args) {
         System.out.println(GrandChild.field);
         System.out.println("----------------------");

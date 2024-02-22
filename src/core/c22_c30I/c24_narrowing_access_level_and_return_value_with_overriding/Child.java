@@ -1,6 +1,6 @@
 package core.c22_c30I.c24_narrowing_access_level_and_return_value_with_overriding;
 
-public class Child extends Parent{
+class Child extends Parent{
     //Сузить уровень доступа переопределяемого метода нельзя
     /*
     @Override

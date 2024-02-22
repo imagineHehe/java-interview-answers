@@ -1,6 +1,6 @@
 package core.c11_c21I.c16_order_of_the_call;
 
-public class GrandChild extends Child{
+class GrandChild extends Child{
     public static String field = "Static field";
 
     {

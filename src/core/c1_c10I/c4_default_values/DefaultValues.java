@@ -1,6 +1,6 @@
 package core.c1_c10I.c4_default_values;
 
-public class DefaultValues {
+class DefaultValues {
     byte byteField = (byte)0;
     short shortField = (short)0;
     int intField = 0;

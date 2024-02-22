@@ -1,6 +1,6 @@
 package core.c11_c21I.c15_access_to_private_field;
 
-public class ClassWitchPrivateField {
+class ClassWitchPrivateField {
     private String privateField = "private string";
 
     //Доступ к приватным переменным внутри класса открыт без ограничений

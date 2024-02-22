@@ -1,6 +1,6 @@
 package core.c1_c10I.c10_interface;
 
-public class Class implements Interface{
+class Class implements Interface{
     @Override
     public String method(String string) {
         return string;

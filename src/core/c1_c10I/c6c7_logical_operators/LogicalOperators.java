@@ -1,6 +1,6 @@
 package core.c1_c10I.c6c7_logical_operators;
 
-public class LogicalOperators {
+class LogicalOperators {
     public void usingOperators(String a){
         if((1 & 2) == 0)
             System.out.println("Побитовый оператор \"AND\"");

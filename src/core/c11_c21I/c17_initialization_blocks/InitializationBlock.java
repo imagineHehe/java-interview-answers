@@ -1,6 +1,6 @@
 package core.c11_c21I.c17_initialization_blocks;
 
-public class InitializationBlock {
+class InitializationBlock {
     //Статический блок инициализации
     static {
         //Выполняется перед инициализацией класса загрузчиком класса
