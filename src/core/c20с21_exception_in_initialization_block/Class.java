@@ -1,6 +1,4 @@
-package core.c20_exception_in_initialization_block;
-
-import java.io.IOException;
+package core.c20с21_exception_in_initialization_block;
 
 class Class {
 
@@ -12,13 +10,14 @@ class Class {
         //Если исключение наследовано от RuntimeException выбросится:
         // java.lang.ExceptionInInitializerError
         throwingRuntimeException();
-        //Если исключение наследовано от Error выбросится выброшенное исключение
+        //Если исключение наследовано от Error выбросится исключение - источник
         throwingError();
     }
 
     {
-        //Всё аналогично статическому блоку, только унаследованные RuntimeException исключения
-        // не пробрасываются ошибкой java.lang.ExceptionInInitializerError
+        //Если исключение наследовано от RuntimeException выбросится исключение - источник
+        throwingRuntimeException();
+        //Если исключение наследовано от Error, также выбросится исключение - источник
     }
     public Class() throws IndexOutOfBoundsException {
     }
